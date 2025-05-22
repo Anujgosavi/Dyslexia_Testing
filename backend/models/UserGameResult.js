@@ -4,7 +4,7 @@ const GameResultSchema = new mongoose.Schema({
   // Player info
   name: String,
   age: Number,
-
+  dyslexicStatus: String,
   // Bubble Bay
   bubblebay_accuracy: Number,
   bubblebay_time: Number,
